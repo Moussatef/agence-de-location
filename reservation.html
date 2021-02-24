@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_Res.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <title>Reservation</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <img id="nav-logo" src="logo/logo.png" alt="" />
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+            ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallry.html">Gallery</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+        </ul>
+    </header>
+    <div class="hero_">
+        <video class="vd"  autoplay muted loop width="100%">
+            <source src="vd/back_2.mp4" 
+            type="video/mp4"
+            >
+        </video>
+    </div>
+    <div class="title_hero">
+  
+        <div style="display: flex;">
+            <img src="logo/logo.png" alt="">
+            <h1> super voiture</h1>
+        </div>
+
+        <p>Nos services vous fournissent les dernières et les
+            dernières nouveautés sur le marché des voitures,
+            des motos et des camions, alors qu'attendez-vous?
+        </p>
+        <div class="btns" style="display: flex;">
+            <div class="button_hero"> <a class="btn_rm reser" href="reservation.html">Réservation</a> </div>
+
+        </div>
+    </div>
+
+
+    <h1 style="text-align: center;">Remplissez le formulaire pour  <span style="color: #017FE8;">réserver</span></h1>
+    <div class="contaner_card">
+        <div class="atrubit">
+            <label>Nom Et Prenom : </label>
+        </div>
+        <div class="atrubit">
+            
+            <input id="Nom" type="text" placeholder="Nom Et Prenom">
+        </div>
+        <div class="atrubit">
+            <label> Idantitie National : </label>
+        </div>
+        <div class="atrubit">
+            <input type="text" id="cin" placeholder="CIN">
+        </div>
+
+
+        <div class="atrubit"><label>Email : </label></div>
+        <div class="atrubit">
+            <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="atrubit"><label>type du véhicule : </label></div>
+        <div class="atrubit">
+            <select id="vehicule" onchange="check_type_v()">
+                <option value="-Votre choix-">-Votre choix-</option>
+                <option value="Motos">Motos</option>
+                <option value="Citadine">Citadine</option>
+                <option value="Compact">Compact</option>
+                <option value="Berline">Berline</option>
+                <option value="Utilitare">Utilitare</option>
+                <option value="Engin">Engin de chantier</option>
+                <option value="Camion">Camion</option>
+            </select>
+        </div>
+        <div class="atrubit"><label>carburant : </label></div>
+        <div class="atrubit">
+            <select id="carbur" onchange="check_carbu()">
+                <option value="-Votre choix-">-Votre choix-</option>
+            </select>
+
+        </div>
+        <div class="atrubit">
+            <label for="">boite à vitesse : </label>
+        </div>
+        <div class="atrubit">
+            
+            <select id="boit" onchange="check_boit()">
+                <option value="-Votre choix-">-Votre choix-</option>
+            </select>
+
+        </div>
+        <div class="atrubit">
+            <label>From : </label>
+        </div>
+        <div class="atrubit">
+            
+            <input type="date" id="dateDep" placeholder="">
+        </div>
+        <div class="atrubit">
+            <label>to : </label>
+        </div>
+        <div class="atrubit">
+           
+            <input type="date" id="dateFin" placeholder="">
+        </div>
+
+        <div class="atrubit last">
+            <input type="button" id="valider" value="Valider">
+        </div>
+    </div>
+    <div id="propt1">
+        <div id="propt2">
+        </div>
+        <div class="button_hero btn_rm reser" style="float: right; margin-right: 5%;" id="btn_ok"> OK</div>
+    </div>
+<!-- footer start -->
+<footer class="">
+    <div class="footer">
+        <div class="footer-section footer1">
+            <img id="logo-footer" src="logo/logo.png" alt="logo" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Autem quibusdam <br />
+                corporis obcaecati perferendis
+            </p>
+            <br />
+            <a class="socials" href="#"
+                ><img src="img/facebook.png" alt=""
+            /></a>
+            <a class="socials" href="#"
+                ><img src="img/instagram.png" alt=""
+            /></a>
+            <a class="socials" href="#"
+                ><img src="img/linkedin.png" alt=""
+            /></a>
+            <a class="socials" href="#"
+                ><img src="img/Twitter.png" alt=""
+            /></a>
+        </div>
+        <div class="footer-section footer2">
+            <ul class="box">
+                <h2>Super</h2>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+             
+            </ul>
+        </div>
+        <div class="footer-section footer3">
+            <ul class="box">
+                <h2>Voiture</h2>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Copyright &copy; 2021 Location Super voiture S.p.A. a sole shareholder company part of Audi Group.
+                <br>
+                All rights reserved. VAT no. IT 00591801204 copyrights &copy; 2021
+    </div>
+</footer>
+
+
+
+    <script src="js/res.js"></script>
+</body>
+
+</html>

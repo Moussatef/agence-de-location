@@ -1,0 +1,80 @@
+
+
+.cards_contact{
+        width: 60%;
+        margin: 2% 20% 2%;
+        background-color: #fff;
+        top: 125%;
+        left: 20%;
+        overflow: hidden;
+        -webkit-box-shadow: 20px 20px 20px 20px rgba(173, 173, 173, 0.61); 
+        box-shadow: 25px 20px 20px 40px rgba(216, 216, 216, 0.61);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+.cards_contact .mapG{
+    margin-top: 9%;
+}
+.inner_inputs{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    width: 350px;
+}
+.atrubit{
+    margin: 20px;
+}
+.atrubit  input ,.atrubit textarea {
+    border-radius: 18px;
+    padding: 14px 10px;
+    margin: 20px auto;
+    width: 300px;
+    color: rgba(51, 51, 51, 0.829);
+    transition: 0.25s;
+    border: 2px solid #717475bb;
+    outline: none;
+    -webkit-box-shadow: 15px 10px 16px -2px rgba(173, 173, 173, 0.61); 
+    box-shadow: 15px 10px 16px -2px rgba(216, 216, 216, 0.61);
+}
+.atrubit label{
+    font-size: 18px;
+}
+.atrubit input[type=text]:focus , .atrubit input[type=email]:focus,.atrubit textarea:focus  {
+    width: 320px;
+    border-color: #068fff;
+}
+
+
+@media (max-width: 600px){
+    .cards_contact{
+        width: 300px;
+        margin: 2% 10% 2%;
+        background-color: #fff;
+        top: 125%;
+        left: 20%;
+        overflow: hidden;
+        display: flex;
+}
+.inner_inputs{
+    margin-top: 1%;
+    width: 100%;
+}
+.atrubit  input ,.atrubit textarea {
+    border-radius: 18px;
+    padding: 14px 10px;
+    margin: 20px auto;
+    width: 200px;
+    color: rgba(51, 51, 51, 0.829);
+    transition: 0.25s;
+    border: 2px solid #717475bb;
+    outline: none;
+    -webkit-box-shadow: 15px 10px 16px -2px rgba(173, 173, 173, 0.61); 
+    box-shadow: 15px 10px 16px -2px rgba(216, 216, 216, 0.61);
+}
+
+}
+
+
+
+    
+

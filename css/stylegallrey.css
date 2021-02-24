@@ -1,0 +1,133 @@
+
+
+
+
+.our_gr{
+    background: url(/images/Rectangle\ 1865.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.our_gr h2{
+    padding-top: 17px;
+
+}
+.contant_books{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px 0px ;
+    background: url(/img/Groupe\ 8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .contant_books .all_cards{
+    width: 80rem;
+    display: flex;
+    overflow: hidden;
+    
+} */
+
+.contant_books .card{
+    background: rgb(139, 139, 139);
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    margin: 2rem;
+    border: solid #383838 1.4px;
+    
+
+}
+.contant_books .card .image_bk{
+    transition: 500ms;
+    width: 100%;
+    height: 10rem;
+    filter:contrast(80%);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contant_books .card .image_bk:hover{
+    transition: 600ms;
+    filter:contrast(100%);
+}
+.contant_books .card .image_bk img{
+    width: 260px;
+}
+.contant_books .card h3{
+    text-align: center;
+}
+.contant_books .card p{
+font-size: 17;
+text-align: left;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+color: #141012;
+}
+.star{
+    margin-left: 10px;
+}
+.d-btn a{
+    width: 120px;
+    font-size: 12px;
+    padding: 10px 0px;
+    background-color: #064cf0;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 2px 20% 5px;
+    }
+    .d-btn a:hover {
+    background: #000000;
+    border-bottom: rgb(0, 67, 250);
+    }
+.all_art{
+    background: #000000;
+    width: 100%;
+    margin-bottom: 5%;
+    justify-content: center;
+    /* height: 100px; */
+    /* margin: 2% 20% 10%; */
+    overflow: hidden;
+}
+.mor_art {
+    width: 1800px;
+    overflow: hidden;
+    display: flex;
+    /* grid-template-columns: 225px 225px 225px 225px 225px 225px 225px; */
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+.m_art1{
+    background: #000000; 
+    
+    margin: 20px ;
+    /* -webkit-box-shadow: 15px 10px 16px -2px rgba(99, 99, 99, 0.61); 
+    box-shadow: 15px 10px 16px -2px rgba(70, 70, 70, 0.61); */
+    animation: morebook 25s linear infinite alternate-reverse;
+}
+
+.mor_art .m_art1 img{
+    margin-left: 170px;
+    width:10rem;
+    height: 10rem;
+}
+@keyframes morebook {
+    from{
+        transition: 8000ms;
+        transform: translateX(0);
+    }
+    to{
+        transform: scale(1.18);
+        transform: translateX(-1700px);
+        
+    }
+}

@@ -1,0 +1,58 @@
+
+    .images{
+        position: relative;
+        /* padding-left: 2%; */
+        margin-bottom: 100px;
+        max-width: 100%;
+        z-index: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    .artc_img {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 2% 13% 10%;
+    }
+    .artc_img .artic{
+        width: 700px;
+    }
+
+    .artc_img .artic p{
+        font-size: 16px;
+        text-justify: distribute;
+        margin-bottom: 30px;
+    }
+    .artc_img .artic h2{
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+    .artc_img .svg_img{
+        width: 50%;
+    }
+    .artc_img .svg_img img{
+        height: 450px;
+        width: 100%;
+    }
+    .artc_img .eng{
+        width: 600px;
+    }
+
+    .artc_img .eng svg{
+        width: 100%;
+        height: 50%;
+    }
+
+    @media only screen and (max-width : 768px){
+
+        .artc_img .svg_img img{
+            height: 130px;
+            width: 195px;
+        }
+    }
+
+
+
