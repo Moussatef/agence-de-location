@@ -63,7 +63,7 @@ body{
 
 .header .logo {
 	display: block;
-	/* float: left; */
+	float: left;
 	font-size: 2em;
 	padding: 10px 20px;
 	text-decoration: none;
