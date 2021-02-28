@@ -47,7 +47,7 @@
 
 @media (max-width: 600px){
     .cards_contact{
-        width: 300px;
+        width: 100%;
         margin: 2% 10% 2%;
         background-color: #fff;
         top: 125%;
@@ -70,6 +70,10 @@
     outline: none;
     -webkit-box-shadow: 15px 10px 16px -2px rgba(173, 173, 173, 0.61); 
     box-shadow: 15px 10px 16px -2px rgba(216, 216, 216, 0.61);
+}
+.atrubit input[type=text]:focus , .atrubit input[type=email]:focus,.atrubit textarea:focus  {
+    width: 220px;
+    border-color: #068fff;
 }
 
 }
